@@ -1,5 +1,9 @@
 #include<stdio.h>
 
 void main(){
-    printf("Ohayo Minasan");
+    int a;
+    a=10;
+    int b; 
+    b=5;
+    printf("the sum of a+b is %d", a+b);
 }
