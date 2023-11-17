@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 void main(){
-    char a;
-    printf("give me a character:  ");
-    scanf("%c", &a);
-    printf("your character is: %d and the next char is %c", a,a+1);
+    int Table [1];
+    int a;
+    printf("please give me an value:  ");
+    scanf("%d", &Table [0]);    
+    printf("%d",Table[0]);
 }
