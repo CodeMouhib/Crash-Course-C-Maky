@@ -1,9 +1,20 @@
 #include<stdio.h>
 
 void main(){
-    int Table [1];
-    int a;
-    printf("please give me an value:  ");
-    scanf("%d", &Table [0]);    
-    printf("%d",Table[0]);
+    const int SIZE = 4;
+    int Table [SIZE];
+
+
+    int i=0; 
+    for ( i=0; i<SIZE ; i++){
+        printf("insert %d value:  ", i);
+        scanf("%d", &Table[i]);
+    }
+
+    printf("----------%d\n",i);
+
+    for (i=0; i<SIZE; i++){
+        printf("j = %d\n",i);
+        printf("your table is %d \n",Table[i]);
+    }
 }
