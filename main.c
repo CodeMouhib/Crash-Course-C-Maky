@@ -1,9 +1,8 @@
 #include<stdio.h>
 
 void main(){
-    int a;
-    a=10;
-    int b; 
-    b=5;
-    printf("the sum of a+b is %d", a+b);
+    char a;
+    printf("give me a character:  ");
+    scanf("%c", &a);
+    printf("your character is: %d and the next char is %c", a,a+1);
 }
